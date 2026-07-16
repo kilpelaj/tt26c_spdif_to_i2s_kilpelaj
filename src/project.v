@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt_um_spdif_to_i2s_jukilpel (
+module tt_um_spdif_to_i2s_kilpelaj (
     input  wire       VGND,
     input  wire       VDPWR,    // 1.8v power supply
 //    input  wire       VAPWR,    // 3.3v power supply
