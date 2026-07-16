@@ -1,0 +1,158 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1783928072
+<< error_s >>
+rect -1082 212 -866 226
+rect -1106 88 -1048 94
+rect -1106 54 -1094 88
+rect -1106 48 -1048 54
+rect -1106 -440 -1048 -434
+rect -1106 -474 -1094 -440
+rect -1106 -480 -1048 -474
+rect -828 -476 -612 212
+rect 496 80 530 90
+rect 468 -344 530 80
+rect 496 -684 530 -344
+rect 1840 -816 2080 222
+rect 2966 212 3206 222
+rect 3220 -476 3460 212
+rect 4600 -476 4840 226
+rect 5980 -612 6220 226
+rect 7360 -434 7600 226
+rect 7642 88 7700 94
+rect 7834 88 7892 94
+rect 7642 54 7654 88
+rect 7834 54 7846 88
+rect 7642 48 7700 54
+rect 7834 48 7892 54
+rect 7360 -440 7604 -434
+rect 7738 -440 7796 -434
+rect 7360 -474 7600 -440
+rect 7738 -474 7750 -440
+rect 7360 -480 7604 -474
+rect 7738 -480 7796 -474
+rect 7360 -612 7600 -480
+rect -546 -986 -488 -980
+rect -354 -986 -296 -980
+rect -162 -986 -104 -980
+rect 30 -986 88 -980
+rect -546 -1020 -534 -986
+rect -354 -1020 -342 -986
+rect -162 -1020 -150 -986
+rect 30 -1020 42 -986
+rect -546 -1026 -488 -1020
+rect -354 -1026 -296 -1020
+rect -162 -1026 -104 -1020
+rect 30 -1026 88 -1020
+rect 7366 -1236 7424 -1230
+rect 7558 -1236 7616 -1230
+rect 7366 -1270 7378 -1236
+rect 7558 -1270 7570 -1236
+rect 7366 -1276 7424 -1270
+rect 7558 -1276 7616 -1270
+rect -1106 -1286 -1048 -1280
+rect -1106 -1320 -1094 -1286
+rect -1106 -1326 -1048 -1320
+rect -1106 -1596 -1048 -1590
+rect -642 -1596 -584 -1590
+rect -450 -1596 -392 -1590
+rect -258 -1596 -200 -1590
+rect -66 -1596 -8 -1590
+rect 7270 -1596 7328 -1590
+rect 7462 -1596 7520 -1590
+rect -1106 -1630 -1094 -1596
+rect -642 -1630 -630 -1596
+rect -450 -1630 -438 -1596
+rect -258 -1630 -246 -1596
+rect -66 -1630 -54 -1596
+rect 7270 -1630 7282 -1596
+rect 7462 -1630 7474 -1596
+rect -1106 -1636 -1048 -1630
+rect -642 -1636 -584 -1630
+rect -450 -1636 -392 -1630
+rect -258 -1636 -200 -1630
+rect -66 -1636 -8 -1630
+rect 7270 -1636 7328 -1630
+rect 7462 -1636 7520 -1630
+use sky130_fd_pr__nfet_01v8_4LUS77  XM1
+timestamp 1783928072
+transform 1 0 1216 0 1 -1358
+box -296 -410 296 410
+use sky130_fd_pr__nfet_01v8_5WEARQ  XM2
+timestamp 1783928072
+transform 1 0 2247 0 1 -1433
+box -683 -335 683 335
+use sky130_fd_pr__nfet_01v8_5WEARQ  XM3
+timestamp 1783928072
+transform 1 0 3627 0 1 -1433
+box -683 -335 683 335
+use sky130_fd_pr__nfet_01v8_4LUS77  XM4
+timestamp 1783928072
+transform 1 0 572 0 1 -1358
+box -296 -410 296 410
+use sky130_fd_pr__pfet_01v8_3NYFFJ  XM5
+timestamp 1783928072
+transform 1 0 -145 0 1 -132
+box -683 -344 683 344
+use sky130_fd_pr__pfet_01v8_RJ7C7Z  XM6
+timestamp 1783928072
+transform 1 0 1143 0 1 -297
+box -683 -519 683 519
+use sky130_fd_pr__pfet_01v8_3NYFFJ  XM7
+timestamp 1783928072
+transform 1 0 3903 0 1 -132
+box -683 -344 683 344
+use sky130_fd_pr__pfet_01v8_RJ7C7Z  XM8
+timestamp 1783928072
+transform 1 0 2523 0 1 -297
+box -683 -519 683 519
+use sky130_fd_pr__pfet_01v8_ARS5XN  XM9
+timestamp 1783928072
+transform 1 0 5283 0 1 -193
+box -683 -419 683 419
+use sky130_fd_pr__pfet_01v8_ARS5XN  XM10
+timestamp 1783928072
+transform 1 0 6663 0 1 -193
+box -683 -419 683 419
+use sky130_fd_pr__nfet_01v8_5WEARQ  XM11
+timestamp 1783928072
+transform 1 0 5007 0 1 -1433
+box -683 -335 683 335
+use sky130_fd_pr__nfet_01v8_5WEARQ  XM12
+timestamp 1783928072
+transform 1 0 6387 0 1 -1433
+box -683 -335 683 335
+use sky130_fd_pr__pfet_01v8_6Q3JE8  XM15
+timestamp 1783928072
+transform 1 0 7719 0 1 -193
+box -359 -419 359 419
+use sky130_fd_pr__nfet_01v8_AQDW3E  XM16
+timestamp 1783928072
+transform 1 0 7443 0 1 -1433
+box -359 -335 359 335
+use sky130_fd_pr__nfet_01v8_6E355D  XM17
+timestamp 1783928072
+transform 1 0 -277 0 1 -1308
+box -551 -460 551 460
+use sky130_fd_pr__pfet_01v8_M3PB37  XM18
+timestamp 1783928072
+transform 1 0 -1077 0 1 -193
+box -211 -419 211 419
+use sky130_fd_pr__nfet_01v8_LB55D5  XM19
+timestamp 1783928072
+transform 1 0 -1077 0 1 -1458
+box -211 -310 211 310
+use sky130_fd_pr__res_xhigh_po_0p35_N7YJWT  XR1
+timestamp 1783928072
+transform 0 1 1294 -1 0 -2451
+box -201 -2582 201 2582
+use sky130_fd_pr__res_xhigh_po_0p35_N7YJWT  XR2
+timestamp 1783928072
+transform 0 1 1294 -1 0 -2043
+box -201 -2582 201 2582
+use sky130_fd_pr__res_xhigh_po_0p35_3GPZD7  XR10
+timestamp 1783928072
+transform 0 1 3294 -1 0 -2859
+box -201 -4582 201 4582
+<< end >>
