@@ -1,11 +1,9 @@
-** sch_path: /foss/designs/comp.sch
-.subckt comp uo_out[6] ua[0] VDPWR uo_out[3] VGND
-*.PININFO ua[0]:I uo_out[6]:O uo_out[3]:I VGND:I VDPWR:I
+** sch_path: /foss/designs/submission/tt26c_spdif_to_i2s_kilpelaj/xschem/comp.sch
+.subckt comp uo_out[0] clk uo_out[1] rst_n ui_in[0] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[7] uo_out[6] ua[0] VDPWR VGND
+*.PININFO ua[0]:I uo_out[6]:O VGND:I VDPWR:I ui_in[0]:I rst_n:I clk:I uo_out[0]:O uo_out[1]:O uo_out[2]:O uo_out[3]:O uo_out[4]:O
+*+ uo_out[5]:O uo_out[7]:O
 XM3 net5 net3 net1 VGND sky130_fd_pr__nfet_01v8 L=1 W=4 nf=4
-XR10 net2 VDPWR VGND sky130_fd_pr__res_xhigh_po_0p35 L=40 mult=1
 XM2 net6 ua[0] net1 VGND sky130_fd_pr__nfet_01v8 L=1 W=4 nf=2
-XR1 net3 VDPWR VGND sky130_fd_pr__res_xhigh_po_0p35 L=20 mult=1
-XR2 VGND net3 VGND sky130_fd_pr__res_xhigh_po_0p35 L=20 mult=1
 XM5 net6 net5 VDPWR VDPWR sky130_fd_pr__pfet_01v8 L=1 W=12 nf=4
 XM4 net2 net2 VGND VGND sky130_fd_pr__nfet_01v8 L=1 W=2 nf=1
 XM1 net1 net2 VGND VGND sky130_fd_pr__nfet_01v8 L=1 W=2 nf=1
@@ -21,4 +19,12 @@ XM11 net8 net7 VDPWR VDPWR sky130_fd_pr__pfet_01v8 L=0.15 W=8 nf=4
 XM12 net8 net5 VGND VGND sky130_fd_pr__nfet_01v8 L=0.2 W=4 nf=2
 XM13 uo_out[6] net8 VDPWR VDPWR sky130_fd_pr__pfet_01v8 L=0.15 W=8 nf=4
 XM14 uo_out[6] net8 VGND VGND sky130_fd_pr__nfet_01v8 L=0.2 W=4 nf=2
+X1 VGND VDPWR uo_out[5] clk uo_out[0] uo_out[2] uo_out[1] uo_out[4] uo_out[3] uo_out[7] rst_n ui_in[0] spdif_to_i2s
+XR1 VGND net3 VGND sky130_fd_pr__res_xhigh_po_0p69 L=80 mult=1
+XR2 net3 VDPWR VGND sky130_fd_pr__res_xhigh_po_0p69 L=80 mult=1
+XR3 net2 VDPWR VGND sky130_fd_pr__res_xhigh_po_0p69 L=160 mult=1
 .ends
+
+* expanding   symbol:  spdif_to_i2s.sym # of pins=12
+** sym_path: /foss/designs/submission/tt26c_spdif_to_i2s_kilpelaj/xschem/spdif_to_i2s.sym
+.include ll/spdif_to_i2s.spice
