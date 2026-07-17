@@ -178,15 +178,7 @@ N -710 -720 -230 -720 {lab=clk}
 N -1040 -510 -1040 40 {lab=uo_out[3]}
 N -1040 -510 130 -510 {lab=uo_out[3]}
 N 130 -660 130 -510 {lab=uo_out[3]}
-N 70 -660 130 -660 {lab=uo_out[3]}
-N 70 -720 160 -720 {lab=uo_out[0]}
-N 70 -700 160 -700 {lab=uo_out[1]}
-N 70 -680 160 -680 {lab=uo_out[2]}
 N 130 -660 160 -660 {lab=uo_out[3]}
-N 70 -640 160 -640 {lab=uo_out[4]}
-N 70 -620 160 -620 {lab=uo_out[5]}
-N 70 -600 160 -600 {lab=uo_out[7]}
-N 60 -720 70 -720 {lab=uo_out[0]}
 N -700 -650 -700 -430 {lab=VDPWR}
 N -700 -660 -240 -660 {lab=VDPWR}
 N -700 -660 -700 -650 {lab=VDPWR}
@@ -201,6 +193,13 @@ N -370 20 -350 20 {lab=VDPWR}
 N -350 20 -350 40 {lab=VDPWR}
 N -370 70 -370 110 {lab=VGND}
 N -350 100 -350 110 {lab=#net2}
+N 70 -600 160 -600 {lab=uo_out[7]}
+N 70 -620 160 -620 {lab=uo_out[5]}
+N 70 -640 160 -640 {lab=uo_out[4]}
+N 70 -660 130 -660 {lab=uo_out[3]}
+N 70 -680 160 -680 {lab=uo_out[2]}
+N 70 -700 160 -700 {lab=uo_out[1]}
+N 70 -720 160 -720 {lab=uo_out[0]}
 C {sky130_fd_pr/nfet_01v8.sym} -180 -80 0 0 {name=M3
 W=4
 L=1
@@ -464,11 +463,9 @@ C {opin.sym} 160 -640 0 0 {name=p18 lab=uo_out[4]}
 C {opin.sym} 160 -620 0 0 {name=p20 lab=uo_out[5]}
 C {opin.sym} 160 -600 0 0 {name=p21 lab=uo_out[7]}
 C {spdif_to_i2s.sym} -80 -660 0 0 {type=subcircuit
-
-format="@name @pinlist @value"
-
-name=x1
-value=spdif_to_i2s}
+format="@name @pinlist @symname"
+template="name=X1"
+name=X1}
 C {sky130_fd_pr/res_xhigh_po_0p69.sym} 260 -60 0 0 {name=R1
 L=80
 model=res_xhigh_po_0p69

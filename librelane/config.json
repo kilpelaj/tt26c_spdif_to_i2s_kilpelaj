@@ -19,8 +19,8 @@
 
   "//": "floorplan: absolute die; resize to fit the parent chip / synth area",
   "FP_SIZING": "absolute",
-  "DIE_AREA": "0 0 140 180",
-  "PL_TARGET_DENSITY_PCT": 60,
+  "DIE_AREA": "0 0 140 200",
+  "PL_TARGET_DENSITY_PCT": 33,
   "TOP_MARGIN_MULT": 1,
   "BOTTOM_MARGIN_MULT": 1,
   "LEFT_MARGIN_MULT": 6,

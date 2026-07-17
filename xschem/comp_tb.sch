@@ -65,4 +65,3 @@ C {lab_wire.sym} -90 -70 0 0 {name=p2 lab=analog_in
 C {lab_wire.sym} 350 20 0 0 {name=p1 lab=comp_out}
 C {lab_wire.sym} -220 -30 0 0 {name=p3 sig_type=std_logic lab=dig_in}
 C {gnd.sym} -60 170 0 0 {name=l2 lab=0}
-C {code_shown.sym} 120 80 0 0 {name=s2 only_toplevel=false value=".include ll/spdif_to_i2s.spice"}

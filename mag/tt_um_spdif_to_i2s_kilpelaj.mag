@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1784277980
+timestamp 1784280490
 << locali >>
 rect 27578 2844 31180 2876
 rect 27578 2770 27604 2844
@@ -1071,8 +1071,8 @@ timestamp 1784238448
 transform 0 1 20148 -1 0 604
 box -586 -8582 586 8582
 use spdif_to_i2s  spdif_to_i2s_0
-timestamp 1784243851
-transform 1 0 2822 0 1 4132
+timestamp 1784280490
+transform 1 0 2844 0 1 4064
 box 514 496 28000 40000
 << labels >>
 flabel metal4 s 28766 44952 28826 45152 0 FreeSans 480 90 0 0 clk
